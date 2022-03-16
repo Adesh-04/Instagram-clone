@@ -1,0 +1,39 @@
+.profile-card{
+    display:flex;
+    flex-direction: row;
+    padding:10px 0 0 0;
+    align-items:center;
+}
+
+.profile-card > img{
+    border-radius: 50%;
+}
+
+.profile-name{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.profile-name > span {
+    padding-left: 15px;
+}
+
+.username{
+    font-weight: 600;
+    font-size:13px;
+    color: rgb(53, 45, 45);
+}
+
+.name{
+    color:grey;
+    font-size: 13px;
+}
+
+.button{
+    font-weight:700;
+    color:#0194F6;
+    border:none;
+    margin-right: 20px;
+    font-size: 12px;
+}

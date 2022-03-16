@@ -1,0 +1,14 @@
+.app-body{
+  display:flex;
+  margin: 2rem 3rem 0 13rem;
+  height:85vh;
+}
+
+@media screen and (max-width:900px) {
+    
+  .main-area{
+    flex:0;
+    
+  }
+    
+}

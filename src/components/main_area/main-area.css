@@ -1,0 +1,21 @@
+.main-area{
+    /* background-color: red; */
+    flex:1;
+    overflow-y: scroll;
+    margin-right: 1.3rem;
+}
+
+.main-area::-webkit-scrollbar{
+    display: none;
+}
+
+
+.story-area{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
+

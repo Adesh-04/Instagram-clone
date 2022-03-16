@@ -1,0 +1,18 @@
+.storycard{
+    padding:45px 0 0px 20px;
+    margin-bottom: 10px;
+}
+
+.storyimg{
+    cursor:pointer;
+    border-radius: 50% ;
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.storycard > center{
+    position: relative;
+    font-size: 13px;
+    bottom: 15px;
+    color: rgb(53, 45, 45);
+}

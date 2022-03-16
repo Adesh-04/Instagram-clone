@@ -1,0 +1,61 @@
+.sidebar{
+    width: 20rem;
+    margin-right:150px;
+}
+
+.profile-position{
+    
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+}
+
+.suggestion{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+    font-weight:600;
+    font-size: 13px;
+    color: grey;
+}
+.link{
+    margin-left:auto;
+    margin-right:20px;
+    font-size:12px;
+    font-weight:300;
+    color: rgb(53, 45, 45);
+    border:none;
+}
+
+.profile-suggested{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgb(53, 45, 45);
+}
+
+.profile-card{
+    padding-bottom: 5px;
+}
+
+.side-link{
+    margin-top: 40px;
+    font-size:11px;
+    color:#CECFCE
+}
+
+.side-link > span{
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1230px){
+    .sidebar{
+        display:none;
+    }
+
+    .app-body{
+        margin-left:1rem;
+    }
+    
+    
+}

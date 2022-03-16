@@ -1,0 +1,121 @@
+.postcard {
+    margin-top:1.5rem;
+    /* padding-inline:10px; */
+    border:1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.post-header{
+    padding-inline:10px;
+    margin-block: 10px;
+    display:flex;
+    align-items:center;
+}
+
+.post-header > p{
+    font-weight: 600;
+    color: rgb(53, 45, 45);
+    font-size:13px;
+    margin-left:20px;
+    margin-right:auto;
+    cursor:pointer;
+}
+
+.post-header > p:hover{
+    text-decoration: underline;
+}
+
+.post-header > span{
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+.post-header > a{
+    font-size:25px;
+}
+
+.postcard > img{
+    /* margin: 122px; */
+    border: 1px solid grey;
+}
+
+.post-like{
+    margin-top:1rem;
+    display:flex;
+    font-size:24px;
+    padding-inline: 10px;
+}
+.post-like-content {
+    display:flex;
+    justify-content: space-between;
+    min-width:8rem;
+    margin-right: auto;
+}
+
+.point{
+    width:fit-content;
+    cursor: pointer;
+}
+
+.post-info{
+    padding-inline:10px;
+    color: rgb(53, 45, 45);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.39);
+}
+
+.heavier-text{
+    font-size:13px;
+}
+
+.heavier-text:hover{
+    text-decoration: underline;
+}
+
+.text{
+    font-weight: 600;
+    color: rgb(53, 45, 45);
+    font-size:13px;
+}
+
+.lighter-text{
+    width:fit-content;
+    font-weight:400;
+    color: grey;
+    font-size: 13px ;
+}
+
+.time{
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.post-comment{
+    margin: 0.5rem 10px;
+    display:flex;
+    align-items:center;
+}
+
+.post-comment :first-child{
+    font-size:27px;
+}
+
+.post-comment > input{
+    margin-inline:1rem;
+    flex: 1;
+    height:2rem;
+    border-radius:10px;
+    border:none;
+    outline: none;
+}
+
+.post-comment > input::placeholder{
+    padding-left: 2rem;
+}
+
+.post-comment > button{
+    font-weight:700;
+    color:#0194F6;
+    border:none;
+    background-color: white;
+}
